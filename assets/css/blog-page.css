@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui;
+}
+
+/* .macbook {
+  background-image: url('/assets/img/laptop.jpg');
+  background-repeat: no-repeat;
+  background-position-x: 165px;
+  background-position-y: 270px;
+} */
+
+.container {
+  width: 1440px;
+  height: 3531px;
+  margin-top: 80px;
+  margin-left: 165px;
+  margin-right: 165px;
+  margin-bottom: 44px;
+}
+
+.container h1 {
+  font-size: 40px;
+  font-weight: 700;
+  width: 824px;
+  height: 96px;
+  margin-bottom: 28px;
+}
+
+.container .avatar {
+  float: left;
+  padding-right: 12px;
+}
+
+.container .writer-info {
+  font-size: 14px;
+  font-weight: 400;
+  width: 223px;
+  height: 28px;
+  padding-top: 2px;
+  margin-bottom: 100px;
+  line-height: 24px;
+}
+
+.container .writer-info span {
+  opacity: 50%;
+}
+
+.macbook {
+  margin-bottom: 24px;
+}
+
+.container .write {
+  font-size: 16px;
+  width: 1440px;
+  height: 384px;
+}
+
+.zip img {
+  float: left;
+}
+
+.container .zip h6 {
+  font-size: 20px;
+  margin-bottom: 16px;
+  line-height: 28px;
+}
+
+.container .zip p {
+  width: 546;
+  height: 392px;
+  line-height: 28px;
+}
+
+.container .soz-background {
+  width: 1110px;
+  height: 347px;
+  /* background-color: lightgray; */
+  background-image: url('/assets/img/background.png');
+}
+
+.container .soz-background p {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 37px;
+  text-align: center;
+  padding-top: 96px;
+  padding-left: 126px;
+}
+
+.container .soz-background .author {
+  padding-top: 53px;
+}
+
+.container .soz-background .author-name {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+}
