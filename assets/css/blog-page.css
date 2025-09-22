@@ -131,3 +131,10 @@ body {
   padding-left: 24px;
   padding-top: 82px;
 }
+
+.container .apple-watch-video p {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 37px;
+  padding-bottom: 32px;
+}
